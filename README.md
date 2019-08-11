@@ -20,5 +20,13 @@ API endpoints:
  * GET /api/users/{username}  
  * GET /api/friends/{username}  
  * POST /api/users
+    ```
+    Payload
+    {
+    	"username": "testUsername",
+    	"name": "My test username",
+    	"description": "Somethig here"
+    }
+    ```
  * DELETE /api/users/{username} 
- * PATCH /api/connect/{user}/{friend}
+ * PATCH /api/connect/{username}/{friendUsername}
